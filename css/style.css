@@ -1,6 +1,8 @@
 
-.hex-holoder {
-	padding-top:80px}
+.hex-holder {
+	max-width:760px;
+	margin:auto;
+	padding-top:40px}
 	
 .servises {
 	margin:0;
@@ -9,8 +11,40 @@
 	list-style:none;}
 	
 .servises > li {
-	display:inline-block;
+	display:block;
+	float:left;
 	width:32%;}
 	
+.servises > li  img {
+	background-color:#A69F1F;
+	max-width:100%;
+	max-height:100%;
+	vertical-align:middle;}
+	
 #srv1,#srv5 {
-	margin-left:16%;}	
+	margin-left:16%;}
+	
+.servises > li > div  {
+	height:100%;
+	width:100%;
+	position:relative;}
+	
+.servises  div > a {
+	color:white;
+	position:absolute;
+	display:block;
+	top:0;
+	height:100%;
+	width:100%;
+	left:0;}
+	
+#logo > div > a {}
+	
+.servises  div > a > span {
+	font-size:1.2em;
+	margin-top: 45%;
+	display:inline-block;}
+	
+			
+#srv2 > div > img {}
+		
