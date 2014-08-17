@@ -1,11 +1,12 @@
 
 .hex-holder {
-	max-width:760px;
+	max-width:740px;
 	margin:auto;
 	padding-top:40px}
 	
 .servises {
 	margin:0;
+	padding:0;
 	display:table-cell;
 	width:100%;
 	list-style:none;}
@@ -43,8 +44,22 @@
 .servises  div > a > span {
 	font-size:1.2em;
 	margin-top: 45%;
-	display:inline-block;}
+	display:block;}
 	
 			
 #srv2 > div > img {}
+
+
+
+/* ----- responsive - part -------*/
+@media (min-width: 471px) {
+.hex-holder { padding-top:10px;}
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px){
+
+	
+}
 		
