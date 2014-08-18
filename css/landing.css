@@ -1,0 +1,134 @@
+body {
+    font-family: 'pt_sans',sans-serif;
+	font-weight:300;}
+
+
+.hex-holder {
+	max-width:740px;
+	padding-top:65px}
+	
+.servises {
+	margin:0;
+	padding:0;
+	display:table-cell;
+	width:100%;
+	list-style:none;}
+	
+.servises > li {
+	display:block;
+	float:left;
+	width:32%;}
+	
+#srv1,#srv5 {
+	margin-left:16%}
+	
+#srv1,#srv2 {
+	margin-bottom:-4%}
+	
+#srv5,#srv6 {
+	margin-top:-4%}
+	
+.mask-holder {
+	position:relative;
+	width:100%}	
+	
+.logo-holder {	
+	position:relative;
+	width:100%}	
+	
+.logo-holder > img {	
+	border-radius:45%;
+	max-width:100%;}
+	
+.mask-holder > img {
+	border-radius:45%;
+	max-width:100%;}
+	
+.mask-holder > a {
+	text-align:center;
+	display:block;
+	top:0;
+	left:0;
+	position:absolute;
+	width:100%;
+	height:100%;}
+	
+.logo-holder > a {	
+	text-align:center;
+	display:block;
+	top:0;
+	left:0;
+	position:absolute;
+	width:100%;
+	height:100%;}
+	
+.logo-holder > a:hover,.logo-holder > a:visited ,.logo-holder > a:focus{
+	outline:none;}	
+	
+.mask-holder > a:hover{
+	text-decoration:none;}
+	
+.mask-holder > a > span{
+	font-size:13px;
+	font-weight:400;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:white;
+	display:block;
+	margin-top:42%;}
+	
+/*-- animation ---*/
+
+@keyframes rotateRadial {
+	from {
+		transform:rotate(0deg);}
+	to {
+		transform:rotate(180deg);}	
+}
+
+@-webkit-keyframes rotateRadial {
+	from {
+		-webkit-transform:rotate(0deg);}
+	to {
+		-webkit-transform:rotate(180deg);}	
+}
+
+.rotate {
+	animation-name: rotateRadial;
+	animation-duration:.5s;
+	animation-iteration-count:.5s;
+	animation-timing-function:linear;
+	
+	-moz-animation-name: rotateRadial;
+	-moz-animation-duration:.5s;
+	-moz-animation-iteration-count: .5s;
+	-moz-animation-timing-function:linear;
+	
+	-webkit-animation-name: rotateRadial;
+	-webkit-animation-duration:.5s;
+	-webkit-animation-iteration-count: .5s;
+	-webkit-animation-timing-function:linear;}
+
+
+/* ----- responsive - part -------*/
+@media (min-width: 471px) {
+	.hex-holder { padding-top:10px;}
+	.mask-holder > a > span{ margin-top:44%}
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px){
+
+	
+}
+/* end media min-width:768px */
+
+@media (min-width:992px){
+	
+	.mask-holder > a > span{font-size:15px;}
+}
+
+
+
+		
