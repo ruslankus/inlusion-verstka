@@ -9,13 +9,13 @@ body {
 
 .hex-holder {
 	height:100%;
-	max-width:550px;
 	padding-top:65px}
 	
 .hex-holder > div {
 	height:100%;}
 	
 .hex-holder > div >div {
+	position:relative;
 	height:100%;}
 	
 .hex-holder ul {
@@ -132,14 +132,14 @@ body {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:768px){
-
-	
+	.hex-holder {width:700px;}
+	.hex-holder ul { position:absolute; top:50%; margin-top:-310px;}
+	.mask-holder > a > span{font-size:15px;}
 }
 /* end media min-width:768px */
 
 @media (min-width:992px){
 	
-	.mask-holder > a > span{font-size:15px;}
 }
 
 
