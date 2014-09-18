@@ -1,11 +1,25 @@
+html {
+	height:100%;}
+
 body {
+	height:100%;
     font-family: 'pt_sans',sans-serif;
 	font-weight:300;}
 
 
 .hex-holder {
-	max-width:740px;
+	height:100%;
+	max-width:550px;
 	padding-top:65px}
+	
+.hex-holder > div {
+	height:100%;}
+	
+.hex-holder > div >div {
+	height:100%;}
+	
+.hex-holder ul {
+	vertical-align:midle;}
 	
 .servises {
 	margin:0;
